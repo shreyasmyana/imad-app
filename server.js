@@ -46,9 +46,15 @@ var template =
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+
 app.get('/article-one', function (req, res){
   res.send(create(articleone));    
 });
+
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
+
 app.get('/article-two', function(req, res){
    res.send('This is article two'); 
 });
