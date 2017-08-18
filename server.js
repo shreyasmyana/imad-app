@@ -24,7 +24,7 @@ var content=data.content;
 var template =
     `<html>
 <head>
-    <title> {$heading}  </title>    
+    <title> ${heading}  </title>    
 </head>
     <body>
         <div>
