@@ -1,10 +1,10 @@
 console.log('Loaded!');
-var img =document.getElementById('sam')
+var img =document.getElementById('sam');
 sam.onclick=function()
 {
-    sam.style.marginleft='100px';
+img.style.marginleft='100px';
     
-}
+};
 
   
     
