@@ -32,11 +32,11 @@ var template =
         </div>
         <hr/>
         <h3>
-            {$heading}
+            ${heading}
         </h3>
-        <div> {$date}</div>
+        <div> ${date}</div>
         <div>
-            {$content}
+            ${content}
             </div>
     </body>    
 </html>
