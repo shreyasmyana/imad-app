@@ -1,6 +1,10 @@
 console.log('Loaded!');
 var img =document.getElementById('sam')
-img.onlick =function()
+sam.onclick=function()
 {
-    img.style.marginleft='100px';
+    sam.style.marginleft='100px';
+    
 }
+
+  
+    
