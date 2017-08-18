@@ -13,7 +13,7 @@ button.onclick = function(){
            }
        }
    }; 
-      request.open('GET','http://shreyasmyana1997.imad.hasura-app.io',true);
+      request.open('GET','http://shreyasmyana1997.imad.hasura-app.io/counter',true);
       request.send(null);
 };
 var nameInput = document.getElementById('name');
