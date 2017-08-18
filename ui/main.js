@@ -17,6 +17,8 @@ button.onclick = function(){
       request.send(null);
 };
 var nameInput = document.getElementById('name');
+var name = nameInput.value;
+var submit = document.getElementById('submit_btn');
 submit.onclick=function(){
     
  var request = new XMLHttpRequest();
@@ -24,8 +26,6 @@ submit.onclick=function(){
    request.onreadystatechange = function(){
        if (request.readystate === XMLHttpRequest.DONE){
            if(request.status===200){
-               var name = nameInput.value;
-var submit = document.getElementById('submit_btn');
                  var names = request.responseText;
                  names=JSON.parse(names);
     var list ='';
